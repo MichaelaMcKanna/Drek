@@ -1,0 +1,31 @@
+html {
+  background-color: black;
+  color: rgb(22, 20, 20);
+  display: flex;
+}
+.banner {
+  opacity: 0.75;
+  z-index: 0;
+}
+ul {
+  list-style-type: none;
+  z-index: 1;
+}
+
+.icon {
+  height: 4rem;
+  width: 4rem;
+}
+.icon-bigger {
+  height: 3rem;
+  width: 3rem;
+  padding-left: 0.5rem;
+}
+li {
+  display: inline;
+}
+nav {
+  justify-content: center;
+  margin: 0 auto;
+  width: fit-content;
+}
