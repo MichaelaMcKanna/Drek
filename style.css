@@ -54,10 +54,10 @@ nav {
 .bio p {
   opacity: 0.8;
   box-shadow: 5px 5px 5px 8px darkgrey;
-  width: 30%;
   padding: 3rem;
+  padding-bottom: 2rem;
   font-family: "Viaoda Libre";
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .bio img {
   width: 15%;
