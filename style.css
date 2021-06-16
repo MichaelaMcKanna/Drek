@@ -79,6 +79,7 @@ nav {
     font-size: 2rem;
   }
   .icon {
+    padding-left: 0;
     width: 2rem;
     height: 2rem;
   }
@@ -92,8 +93,10 @@ nav {
     box-shadow: 0;
     width: 75%;
   }
+  .band-member-images img {
+    width: 50%;
+  }
 }
-
 @media only screen and (min-width: 768px) {
   .banner {
     width: 500px;
