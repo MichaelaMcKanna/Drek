@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: black;
+  color: lightgray;
+  font-family: "Viaoda Libre";
+  letter-spacing: 0.05em;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1.25rem;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 1.25rem;
+}
+a {
+  text-decoration: none;
+  color: lightgray;
+  letter-spacing: 0.07em;
+  font-size: 1.2rem;
+}
+p {
+  color: lightgray;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
+}
