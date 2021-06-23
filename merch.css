@@ -9,6 +9,12 @@ html {
   font-family: "Viaoda Libre";
   letter-spacing: 0.05em;
 }
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
+}
 
 .navbar {
   display: flex;
@@ -17,7 +23,9 @@ html {
 }
 nav {
   flex: 1;
-  text-align: right;
+  text-align: center;
+  margin: 0 auto;
+  width: auto;
 }
 nav ul {
   display: inline-block;
@@ -36,9 +44,11 @@ a {
 p {
   color: lightgray;
 }
-.container {
-  max-width: 1300px;
-  margin: auto;
-  padding-left: 1.5625rem;
-  padding-right: 1.5625rem;
+.icon {
+  height: 3rem;
+  width: 3rem;
+  padding-left: 0.5rem;
+}
+li {
+  display: inline;
 }

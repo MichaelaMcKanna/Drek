@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
   background-color: black;
   color: lightgray;
@@ -21,7 +26,9 @@ html {
 }
 nav {
   flex: 1;
-  text-align: right;
+  text-align: center;
+  margin: 0 auto;
+  width: auto;
 }
 nav ul {
   display: inline-block;
@@ -40,6 +47,9 @@ a {
 
 main {
   position: relative;
+  text-align: center;
+}
+.video {
   text-align: center;
 }
 .banner-text {
@@ -69,9 +79,6 @@ li {
   display: inline;
 }
 nav {
-  text-align: center;
-  margin: 0 auto;
-  width: auto;
 }
 .bio {
   display: inline-flex;
@@ -90,6 +97,13 @@ nav {
 .bio img {
   width: 15%;
   height: 10%;
+}
+.events {
+  padding-top: 5rem;
+  text-align: center;
+}
+.events h1 {
+  text-decoration: underline;
 }
 .band-member-images img {
   width: 20%;
