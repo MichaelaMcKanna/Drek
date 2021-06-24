@@ -23,6 +23,11 @@ html {
   display: flex;
   align-items: center;
   padding: 1.25rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: black;
 }
 nav {
   flex: 1;
@@ -48,6 +53,7 @@ a {
 main {
   position: relative;
   text-align: center;
+  margin-top: 10rem;
 }
 .video {
   text-align: center;
@@ -78,8 +84,7 @@ ul {
 li {
   display: inline;
 }
-nav {
-}
+
 .bio {
   display: inline-flex;
   text-align: center;
